@@ -1,0 +1,13 @@
+cmake_minimum_required (version 3.22.1)
+project (LIFAPC)
+set(HEADERS
+    Ball.hpp
+    Barre.hpp
+    Couleur.hpp
+)
+set(SOURCES
+    Ball.cpp
+    Barre.cpp
+    Couleur.cpp
+    main.cpp 
+)
