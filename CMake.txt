@@ -1,10 +1,17 @@
+#On n'autorise que l'utilisation qu'à partir de la version 3.22.1
 cmake_minimum_required (version 3.22.1)
+
+#Le nom de projet 
 project (LIFAPC)
+
+#Les fichiers d'en-têtes.
 set(HEADERS
     Ball.hpp
     Barre.hpp
     Couleur.hpp
 )
+
+#Les fichiers sources.
 set(SOURCES
     Ball.cpp
     Barre.cpp
